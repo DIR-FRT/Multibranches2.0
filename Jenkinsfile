@@ -3,6 +3,4 @@ node {
    stage 'Checkout'
    sh 'git config --global http.proxy http://binhmtp:Matrphbi171@10.133.93.63:8080'
    git url: "https://github.com/DIR-FRT/Multibranches2.0.git"
-
-   echo 'multi2.0'
 }
