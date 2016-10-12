@@ -6,4 +6,5 @@ node {
    checkout scm
    // Run the maven build
    sh 'mvn clean package'
+   echo 'multi2.0'
 }
